@@ -1,12 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import logo2 from "../../IMG/logo2.png"
 
 
 
 const Button = ({ setOpen }) => {
   return (
-    <>
     <button onClick={() => setOpen((prev) => !prev)}>
       <svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path
@@ -39,10 +37,6 @@ const Button = ({ setOpen }) => {
         />
       </svg>
     </button>
-    <div className="logo-mobile" >
-      <img src={logo2} alt="" />
-    </div>
-    </>
   );
 };
 

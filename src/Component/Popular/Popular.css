@@ -1,0 +1,26 @@
+.Popular .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Popular h3{
+    color: #000;
+    font-size: clamp(2rem,10vw,3rem);
+}
+.Popular h4{
+    color: #D82937;
+    font-size: clamp(0.8rem,2vw,1.2rem);
+}
+.Popular .Popular-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.Popular .Popular-item .Popular-card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+}

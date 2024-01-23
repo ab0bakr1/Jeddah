@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Header from './Component/Header/Header';
+import Hero from './Component/Hero/Hero';
 import './App.css';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,9 +11,8 @@ AOS.init();
 
 function App() {
   return (
-    <>
-    <Header />
-    </>
+    <div>
+    </div>
   );
 }
 
