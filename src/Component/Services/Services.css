@@ -86,11 +86,13 @@
     font-size: clamp(1.5rem,10vw,2rem);
     position: relative;
     z-index: 3;
+    text-transform: capitalize;
 }
 .Services .Services-item .Services-card p{
     font-size:clamp(1rem,5vw,1.2rem);
     color: rgba(0, 0, 0, 0.597);
     font-weight: 300;
+    text-transform: capitalize;
     position: relative;
     z-index: 3;
 }

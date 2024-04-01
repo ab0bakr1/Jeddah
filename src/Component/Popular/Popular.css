@@ -14,13 +14,55 @@
 .Popular .Popular-item{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 1rem;
     gap: 1rem;
 }
 .Popular .Popular-item .Popular-card{
-    height: 400px;
+    height: 500px;
     width: 300px;
     background-color: #fff;
+}
+.Popular .Popular-card .Popular-info{
+    text-align: center;
+    padding: 10px 40px;
+}
+.Popular .Popular-card .Popular-info h6{
+    color: #D82937;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.Popular .Popular-card .Popular-info h3{
+    font-size: clamp(1.5rem,2vw,3rem);
+    text-transform: capitalize;
+}
+.Popular .Popular-card .Popular-info p{
+    color: rgba(0, 0, 0, 0.597);
+    text-transform: capitalize;
+}
+.Popular .Popular-card .Popular-info p svg{
+    color: #D82937;
+    margin-right: 10px;
+}
+.Popular .Popular-card .Popular-info .Popular-re{
+    justify-content: space-between;
+    align-items: center;
+}
+.Popular .Popular-card .Popular-info .Popular-re p{
+    color: rgba(0, 0, 0, 0.597);
+    text-transform: capitalize;
+    margin: 0;
+}
+.Popular .Popular-card .Popular-info .Popular-re p svg{
+    color: #D82937;
+}
+.Popular .Popular-card .Popular-info .Popular-re button{
+    background-color: #D82937;
+    border: none;
+    padding: 0px 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
 }
