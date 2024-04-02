@@ -18,6 +18,7 @@
     flex-wrap: wrap;
     margin-top: 1rem;
     gap: 1rem;
+    margin-bottom: 5rem;
 }
 .Popular .Popular-item .Popular-card{
     height: 500px;

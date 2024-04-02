@@ -5,14 +5,14 @@ import special from "../../IMG/hero.png"
 
 const Special = () => {
   return (
-    <section className='my-5 py-5'>
-        <div className="container-s">
-            <div className="special-item">
-                <div className="special-img">
+    <section className='my-5' style={{position: 'relative'}}>
+        <div className="container">
+            <Row className="special-item g-0">
+                <div className="special-img col-md-4">
                     <img src={special} alt="" className='w-100 h-100' />
                 </div>
-                <div className="special-info">
-                    <div className="special-text">
+                <div className="special-info col-md-8">
+                    <div className="special-text px-5 py-3">
                         <h6>special offer</h6>
                         <h3>We Have Special Offers Every Now and Then</h3>
                     </div>
@@ -20,7 +20,7 @@ const Special = () => {
                         <button>show special offers</button>
                     </div>
                 </div>
-            </div>
+            </Row>
         </div>
     </section>
   )

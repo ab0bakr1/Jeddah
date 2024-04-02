@@ -19,7 +19,7 @@ const Popular = () => {
     setLike (faHeartCircleCheck)
   }
   return (
-    <section className='Popular py-5'>
+    <section className='Popular py-5 my-5'>
         <Container>
             <h4>OUR LISTING</h4>
             <h3>Popular Listing</h3>
