@@ -1,0 +1,57 @@
+.Listing h5{
+    color: #D82937;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Listing h2{
+    color: #000;
+    font-size: clamp(2rem,10vw,3rem);
+    text-transform: capitalize;
+}
+.Listing-cards{
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+}
+.Listing-cards .Listing-info{
+    text-align: center;
+    padding: 10px 40px;
+}
+.Listing-cards .Listing-info h6{
+    color: #D82937;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.Listing-cards .Listing-info h3{
+    font-size: clamp(1.5rem,2vw,3rem);
+    text-transform: capitalize;
+}
+.Listing-cards .Listing-info p{
+    color: rgba(0, 0, 0, 0.597);
+    text-transform: capitalize;
+}
+.Listing-cards .Listing-info p svg{
+    color: #D82937;
+    margin-right: 10px;
+}
+.Listing-cards .Listing-info .Listing-re{
+    justify-content: space-between;
+    align-items: center;
+}
+.Listing-cards .Listing-info .Listing-re p{
+    color: rgba(0, 0, 0, 0.597);
+    text-transform: capitalize;
+    margin: 0;
+}
+.Listing-cards .Listing-info .Listing-re p svg{
+    color: #D82937;
+}
+.Listing-cards .Listing-info .Listing-re button{
+    background-color: #D82937;
+    border: none;
+    padding: 0px 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
