@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer-card p{
+    font-size: clamp(.8rem,1.5vw,1.2rem);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+.footer-social svg{
+    margin: 0px 10px;
+    cursor: pointer;
+    background-color: #D82937;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff !important;
+}
+.footer-social svg:first-child{
+    margin-left: 0px;
+}
+.footer-card li{
+    margin: 10px 0;
+}
+.footer-card a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.597);
+    font-size: clamp(.8rem,1.3vw,1.1rem);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer-card a:hover{
+    color: #fff;
+}
+.footer-card svg{
+    margin-right: 10px;
+    color: #D82937;
+}
+.footer-copyright{
+    background-color: #D82937;
+}
+.footer-copyright p{
+    font-size: clamp(.8rem,1.5vw,1.2rem);
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0;
+}
+.footer-copyright p a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Slabo 27px", serif;
+    letter-spacing: 1px;
+}
