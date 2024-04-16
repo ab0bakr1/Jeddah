@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const variants = {
     open: {
@@ -25,18 +26,19 @@ const variants = {
     },
   };
 const Navbar = () => {
-    const items = ["HOME", "About", "listing", "blog","Contact"];
+    const items = ["HOME", "About", "Listing", "blog","Contact"];
   return (
         <motion.div className="ul" variants={variants}>
           {items.map((item) => (
             <motion.a
-              href={`#${item}`}
               key={item}
               variants={itemVariants}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              {item}
+              <Link to={`/${item}`}>
+                {item}
+              </Link>
             </motion.a>
           ))}
         </motion.div>

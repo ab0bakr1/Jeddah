@@ -7,6 +7,7 @@ import Special from '../Special/Special'
 import Listing from '../Listing/Listing'
 import Works from '../Works/Works'
 import Footer from '../Footer/Footer'
+import Jeddah from '../Jeddah/Jeddah'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <Popular />
     <Special />
     <Listing />
+    <Jeddah />
     <Works />
     <Footer />
     </>

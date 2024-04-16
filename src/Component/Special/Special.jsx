@@ -9,7 +9,7 @@ const Special = () => {
         <div className="container">
             <Row className="special-item g-0">
                 <div className="special-img col-md-4">
-                    <img src={special} alt="" className='w-100 h-100' />
+                    <img src="https://www.okaz.com.sa/uploads/images/2021/03/06/1751789.jpg" alt="" className='w-100 h-100' />
                 </div>
                 <div className="special-info col-md-8">
                     <div className="special-text px-5 py-3">
