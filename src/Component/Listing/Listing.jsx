@@ -7,7 +7,6 @@ import { faHeart, faHeartCircleCheck, faLocationDot, faPhone } from '@fortawesom
 const Popular1 = require('../../IMG/Popular1.png')
 
 const Listing = () => {
-    const [isFavourite, setIsFavourite] = useState([])
     const [count, setCount] = useState(32)
     const [like, setLike] = useState(faHeart)
     let Name = document.querySelectorAll(".Listing-info h3")

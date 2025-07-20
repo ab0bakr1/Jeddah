@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import "./Popular.css"
 import Popular1 from "../../IMG/Popular1.png"
 import Popular2 from "../../IMG/Popular2.png"

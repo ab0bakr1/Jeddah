@@ -1,9 +1,8 @@
-import { faFacebook, faInstagram, faTwitter, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import './Contact.css'
 import { Container, Row } from 'react-bootstrap'
-import { faX } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (

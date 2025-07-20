@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row } from 'react-bootstrap'
 import './Special.css'
-import special from "../../IMG/hero.png"
 
 const Special = () => {
   return (
