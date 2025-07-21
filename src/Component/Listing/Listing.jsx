@@ -52,7 +52,7 @@ const Listing = () => {
                 </div>
                 <div className="Listing-cards p-0">
                     <div className="Listing-img w-100 h-50">
-                    <img src="https://destinationksa.com/wp-content/uploads/2023/03/Jeddah-sculpture-museum-1.jpg" alt="" className='w-100 h-100' />
+                    <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/thesix-image/2023/09/%5B23/4016721-505279717.png?itok=Ks6Ayqi3" alt="" className='w-100 h-100' />
                     </div>
                     <div className="Listing-info">
                         <h6>Museum</h6>
@@ -136,7 +136,7 @@ const Listing = () => {
                 </div>
                 <div className="Listing-cards p-0">
                     <div className="Listing-img w-100 h-50">
-                    <img src="https://cazcorpwebsitesprod.blob.core.windows.net/caz-corpwebsites-prod/img/project-photos/Jeddah-City-Airport.jpg" alt="" className='w-100 h-100' />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcL2PJp7Wnp8ClKS9n5J3FYegqETnCINfpRQ&s" alt="" className='w-100 h-100' />
                     </div>
                     <div className="Listing-info">
                         <h6>Airport</h6>

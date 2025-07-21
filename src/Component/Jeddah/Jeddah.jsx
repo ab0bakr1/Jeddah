@@ -8,7 +8,7 @@ const Jeddah = () => {
         <Container>
             <Row xl={2} lg={2} md={1} sm={1} className="Jeddah-item g-0">
                 <div className="Jeddah-img col-md-6">
-                    <img src="https://www.travellwd.com/wp-content/uploads/2020/08/king-fahad-fountain-jeddah-4.jpg" alt="" className='w-100 h-100' />
+                    <img src="https://blog.wasalt.sa/wp-content/uploads/2024/08/%D9%86%D8%A7%D9%81%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9-%D9%88%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%A3%D9%86%D8%B4%D8%B7%D8%A9.png" alt="vedio" className='w-100 h-100' />
                 </div>
                 <div className="Jeddah-info py-5 ps-md-5 col-md-6">
                     <div className="Jeddah-text py-3">

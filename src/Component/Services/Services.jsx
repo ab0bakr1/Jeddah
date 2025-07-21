@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <section className='Services'>
         <Container>
-            <Row xl={6} lg={6} md={4} sm={2} className="Services-item">
+            <Row xl={6} lg={6} md={5} sm={4} xs={3} className="Services-item">
                 <div className="Services-card">
                     <img src={Health} alt="" />
                     <h3>Health</h3>

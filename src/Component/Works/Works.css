@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 .Works{
     position: relative;
     padding: 50px 0;
@@ -85,7 +85,7 @@
     font-size: clamp(1rem,1.5vw,2rem);
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Indie Flower", cursive;
+    font-family:'Courier New', Courier, monospace;
 }
 .card-text p{
     color:  rgba(0, 0, 0, 0.597);
@@ -93,6 +93,6 @@
     font-weight: 500;
     text-transform: capitalize;
     padding: 10px 20px;
-    font-family: "Indie Flower", cursive;
+    font-family: 'Roboto Slab', serif;
     letter-spacing: 1px;
 }
