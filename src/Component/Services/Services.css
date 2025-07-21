@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     top: -100px;
     left: 0;
     gap: 15px;
@@ -16,7 +15,8 @@
 }
 .Services .Services-item .Services-card{
     height: 200px;
-    width: 200px;
+    width: 40%;
+    max-width: 200px;
     background-color: #fff;
     padding: 10px;
     border: #D82937 5px solid;
@@ -83,13 +83,13 @@
     z-index: 3;
 }
 .Services .Services-item .Services-card h3{
-    font-size: clamp(1.5rem,10vw,2rem);
+    font-size: clamp(1.1rem,2vw,2rem);
     position: relative;
     z-index: 3;
     text-transform: capitalize;
 }
 .Services .Services-item .Services-card p{
-    font-size:clamp(1rem,5vw,1.2rem);
+    font-size:clamp(.8rem,2vw,1.2rem);
     color: rgba(0, 0, 0, 0.597);
     font-weight: 300;
     text-transform: capitalize;
